@@ -102,8 +102,7 @@ st.metric(
     value=f"({titik_hasil[0]:.2f}, {titik_hasil[1]:.2f})"
 )
 
-# Membuat Plot
-fig, ax = plt.subplots()
+
 
 # Plot titik awal (biru)
 ax.plot(titik_awal[0], titik_awal[1], 'o', color='blue', label='P Awal')
